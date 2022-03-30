@@ -96,6 +96,7 @@ function draw() {
  gameOverS.addAnimation("game end",gameOver)
  //scale the gameover image
  gameOverS.scale=0.5
+ boy.destroy()
 
        
      
