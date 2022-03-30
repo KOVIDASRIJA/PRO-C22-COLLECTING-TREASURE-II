@@ -79,7 +79,7 @@ function draw() {
       if(swordGroup.isTouching(boy)) {
         gameState=END;
        
-        
+       if(gameState===END){
         cashG.destroyEach();
         diamondsG.destroyEach();
         jwelleryG.destroyEach();
@@ -97,6 +97,7 @@ function draw() {
  //scale the gameover image
  gameOverS.scale=0.5
  boy.destroy()
+ }
 
        
      
